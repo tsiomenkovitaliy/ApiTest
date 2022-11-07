@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3931E32A6C41E79DB230266A /* Pods_ApiTest_ApiTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D513AADBB8B0DDA7E121435 /* Pods_ApiTest_ApiTestUITests.framework */; };
+		B2CDB9122BD6254E5B858387 /* Pods_ApiTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FD4A955CC9C948B61D10B5 /* Pods_ApiTestTests.framework */; };
+		D4B3741413E208642246C6E1 /* Pods_ApiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F1F1F82E13E2A3B3803D0C /* Pods_ApiTest.framework */; };
+		E75DFA4F29184B9600F36606 /* DeepLinkParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DFA4E29184B9600F36606 /* DeepLinkParameters.swift */; };
+		E75DFA5129184BAF00F36606 /* DeepLinkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DFA5029184BAF00F36606 /* DeepLinkConstants.swift */; };
 		E767D5AF29112C91004FB752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5AE29112C91004FB752 /* AppDelegate.swift */; };
 		E767D5B129112C91004FB752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5B029112C91004FB752 /* SceneDelegate.swift */; };
-		E767D5B329112C91004FB752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5B229112C91004FB752 /* ViewController.swift */; };
+		E767D5B329112C91004FB752 /* SubredditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5B229112C91004FB752 /* SubredditViewController.swift */; };
 		E767D5B629112C91004FB752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E767D5B429112C91004FB752 /* Main.storyboard */; };
 		E767D5B829112C93004FB752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E767D5B729112C93004FB752 /* Assets.xcassets */; };
 		E767D5BB29112C93004FB752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E767D5B929112C93004FB752 /* LaunchScreen.storyboard */; };
 		E767D5C629112C94004FB752 /* ApiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5C529112C94004FB752 /* ApiTestTests.swift */; };
 		E767D5D029112C94004FB752 /* ApiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5CF29112C94004FB752 /* ApiTestUITests.swift */; };
 		E767D5D229112C94004FB752 /* ApiTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767D5D129112C94004FB752 /* ApiTestUITestsLaunchTests.swift */; };
+		E77671F12911AB2400CF6CC1 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77671F02911AB2400CF6CC1 /* Token.swift */; };
+		E78E5BFC2912CDCB00B16459 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5BFB2912CDCB00B16459 /* ApiEndpoint.swift */; };
+		E78E5BFE2912EF1B00B16459 /* Subreddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5BFD2912EF1B00B16459 /* Subreddit.swift */; };
+		E78E5C002912EF3F00B16459 /* SubredditData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5BFF2912EF3F00B16459 /* SubredditData.swift */; };
+		E78E5C022912EF6200B16459 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C012912EF6200B16459 /* Child.swift */; };
+		E78E5C042912EF7F00B16459 /* ChildData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C032912EF7F00B16459 /* ChildData.swift */; };
+		E78E5C092912F9E300B16459 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C082912F9E300B16459 /* APIError.swift */; };
+		E78E5C0B291335C700B16459 /* RedditService+RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C0A291335C700B16459 /* RedditService+RequestInterceptor.swift */; };
+		E78E5C0E29133ED700B16459 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C0D29133ED700B16459 /* UserDefaultsManager.swift */; };
+		E78E5C122913D61900B16459 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C112913D61900B16459 /* LoginViewController.swift */; };
+		E78E5C152913D6EF00B16459 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C142913D6EF00B16459 /* Storyboarded.swift */; };
+		E78E5C172913D73900B16459 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C162913D73900B16459 /* Coordinator.swift */; };
+		E78E5C192913D76800B16459 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C182913D76800B16459 /* MainCoordinator.swift */; };
+		E78E5C1F29145FFF00B16459 /* RedditNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C1E29145FFF00B16459 /* RedditNetworkReachability.swift */; };
+		E78E5C212916C8FC00B16459 /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C202916C8FC00B16459 /* DeeplinkManager.swift */; };
+		E78E5C232916CFD100B16459 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78E5C222916CFD100B16459 /* AlertManager.swift */; };
+		E7F1B02129112DE500D53A78 /* RedditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1B02029112DE500D53A78 /* RedditService.swift */; };
+		E7F1B02329115C1700D53A78 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1B02229115C1700D53A78 /* ResponseType.swift */; };
+		E7F1B02529115C9C00D53A78 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1B02429115C9C00D53A78 /* Scope.swift */; };
+		E7F1B02729115CEE00D53A78 /* DuractionToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1B02629115CEE00D53A78 /* DuractionToken.swift */; };
+		E7F1B029291160CB00D53A78 /* GrantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1B028291160CB00D53A78 /* GrantType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +62,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CFC5238BC6FD4D2AF74F614 /* Pods-ApiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest.release.xcconfig"; path = "Target Support Files/Pods-ApiTest/Pods-ApiTest.release.xcconfig"; sourceTree = "<group>"; };
+		20EF17C45F7F87E6BC6FB954 /* Pods-ApiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ApiTestTests/Pods-ApiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D513AADBB8B0DDA7E121435 /* Pods_ApiTest_ApiTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiTest_ApiTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCBFE57A0FBBEC148451951 /* Pods-ApiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTestTests.release.xcconfig"; path = "Target Support Files/Pods-ApiTestTests/Pods-ApiTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		74B6F9D1E37B96C0C37888EF /* Pods-ApiTest-ApiTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest-ApiTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ApiTest-ApiTestUITests/Pods-ApiTest-ApiTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9F1F1F82E13E2A3B3803D0C /* Pods_ApiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FD4A955CC9C948B61D10B5 /* Pods_ApiTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75DFA4E29184B9600F36606 /* DeepLinkParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkParameters.swift; sourceTree = "<group>"; };
+		E75DFA5029184BAF00F36606 /* DeepLinkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkConstants.swift; sourceTree = "<group>"; };
 		E767D5AB29112C91004FB752 /* ApiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E767D5AE29112C91004FB752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E767D5B029112C91004FB752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E767D5B229112C91004FB752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E767D5B229112C91004FB752 /* SubredditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubredditViewController.swift; sourceTree = "<group>"; };
 		E767D5B529112C91004FB752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E767D5B729112C93004FB752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E767D5BA29112C93004FB752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,29 @@
 		E767D5CB29112C94004FB752 /* ApiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E767D5CF29112C94004FB752 /* ApiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTestUITests.swift; sourceTree = "<group>"; };
 		E767D5D129112C94004FB752 /* ApiTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E77671F02911AB2400CF6CC1 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E78E5BFB2912CDCB00B16459 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		E78E5BFD2912EF1B00B16459 /* Subreddit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subreddit.swift; sourceTree = "<group>"; };
+		E78E5BFF2912EF3F00B16459 /* SubredditData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubredditData.swift; sourceTree = "<group>"; };
+		E78E5C012912EF6200B16459 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		E78E5C032912EF7F00B16459 /* ChildData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildData.swift; sourceTree = "<group>"; };
+		E78E5C082912F9E300B16459 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		E78E5C0A291335C700B16459 /* RedditService+RequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RedditService+RequestInterceptor.swift"; sourceTree = "<group>"; };
+		E78E5C0D29133ED700B16459 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		E78E5C112913D61900B16459 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E78E5C142913D6EF00B16459 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		E78E5C162913D73900B16459 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E78E5C182913D76800B16459 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E78E5C1E29145FFF00B16459 /* RedditNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditNetworkReachability.swift; sourceTree = "<group>"; };
+		E78E5C202916C8FC00B16459 /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
+		E78E5C222916CFD100B16459 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		E7F1B02029112DE500D53A78 /* RedditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditService.swift; sourceTree = "<group>"; };
+		E7F1B02229115C1700D53A78 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		E7F1B02429115C9C00D53A78 /* Scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
+		E7F1B02629115CEE00D53A78 /* DuractionToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuractionToken.swift; sourceTree = "<group>"; };
+		E7F1B028291160CB00D53A78 /* GrantType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantType.swift; sourceTree = "<group>"; };
+		F2C78A9DD7ECC67F09357E84 /* Pods-ApiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest.debug.xcconfig"; path = "Target Support Files/Pods-ApiTest/Pods-ApiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FB208AEB76D7A95DD1BC0D35 /* Pods-ApiTest-ApiTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTest-ApiTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ApiTest-ApiTestUITests/Pods-ApiTest-ApiTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B3741413E208642246C6E1 /* Pods_ApiTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CDB9122BD6254E5B858387 /* Pods_ApiTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3931E32A6C41E79DB230266A /* Pods_ApiTest_ApiTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69E04268CF41D75293FB6EE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C78A9DD7ECC67F09357E84 /* Pods-ApiTest.debug.xcconfig */,
+				1CFC5238BC6FD4D2AF74F614 /* Pods-ApiTest.release.xcconfig */,
+				74B6F9D1E37B96C0C37888EF /* Pods-ApiTest-ApiTestUITests.debug.xcconfig */,
+				FB208AEB76D7A95DD1BC0D35 /* Pods-ApiTest-ApiTestUITests.release.xcconfig */,
+				20EF17C45F7F87E6BC6FB954 /* Pods-ApiTestTests.debug.xcconfig */,
+				5FCBFE57A0FBBEC148451951 /* Pods-ApiTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C98858A1BB05CAEB9448F041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9F1F1F82E13E2A3B3803D0C /* Pods_ApiTest.framework */,
+				5D513AADBB8B0DDA7E121435 /* Pods_ApiTest_ApiTestUITests.framework */,
+				E4FD4A955CC9C948B61D10B5 /* Pods_ApiTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75DFA4C29184B6B00F36606 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1B02229115C1700D53A78 /* ResponseType.swift */,
+				E7F1B028291160CB00D53A78 /* GrantType.swift */,
+				E7F1B02429115C9C00D53A78 /* Scope.swift */,
+				E7F1B02629115CEE00D53A78 /* DuractionToken.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E75DFA4D29184B7D00F36606 /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				E75DFA4E29184B9600F36606 /* DeepLinkParameters.swift */,
+				E75DFA5029184BAF00F36606 /* DeepLinkConstants.swift */,
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
 		E767D5A229112C91004FB752 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +187,8 @@
 				E767D5C429112C94004FB752 /* ApiTestTests */,
 				E767D5CE29112C94004FB752 /* ApiTestUITests */,
 				E767D5AC29112C91004FB752 /* Products */,
+				69E04268CF41D75293FB6EE1 /* Pods */,
+				C98858A1BB05CAEB9448F041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +205,14 @@
 		E767D5AD29112C91004FB752 /* ApiTest */ = {
 			isa = PBXGroup;
 			children = (
+				E78E5C132913D6E100B16459 /* Navigation */,
+				E78E5C0C29133ECC00B16459 /* Managers */,
+				E77671EF2911AB1200CF6CC1 /* Models */,
+				E77671EE291170A800CF6CC1 /* Controllers */,
+				E77671ED2911709400CF6CC1 /* Networking */,
+				E77671EC2911707B00CF6CC1 /* Enums */,
 				E767D5AE29112C91004FB752 /* AppDelegate.swift */,
 				E767D5B029112C91004FB752 /* SceneDelegate.swift */,
-				E767D5B229112C91004FB752 /* ViewController.swift */,
 				E767D5B429112C91004FB752 /* Main.storyboard */,
 				E767D5B729112C93004FB752 /* Assets.xcassets */,
 				E767D5B929112C93004FB752 /* LaunchScreen.storyboard */,
@@ -127,6 +238,84 @@
 			path = ApiTestUITests;
 			sourceTree = "<group>";
 		};
+		E77671EC2911707B00CF6CC1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E78E5C1A2913E47800B16459 /* Response */,
+				E78E5C072912F9B600B16459 /* Networking */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E77671ED2911709400CF6CC1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1B02029112DE500D53A78 /* RedditService.swift */,
+				E78E5C0A291335C700B16459 /* RedditService+RequestInterceptor.swift */,
+				E78E5C1E29145FFF00B16459 /* RedditNetworkReachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E77671EE291170A800CF6CC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E767D5B229112C91004FB752 /* SubredditViewController.swift */,
+				E78E5C112913D61900B16459 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E77671EF2911AB1200CF6CC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E77671F02911AB2400CF6CC1 /* Token.swift */,
+				E78E5BFD2912EF1B00B16459 /* Subreddit.swift */,
+				E78E5BFF2912EF3F00B16459 /* SubredditData.swift */,
+				E78E5C012912EF6200B16459 /* Child.swift */,
+				E78E5C032912EF7F00B16459 /* ChildData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E78E5C072912F9B600B16459 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E78E5BFB2912CDCB00B16459 /* ApiEndpoint.swift */,
+				E78E5C082912F9E300B16459 /* APIError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E78E5C0C29133ECC00B16459 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E78E5C0D29133ED700B16459 /* UserDefaultsManager.swift */,
+				E78E5C202916C8FC00B16459 /* DeeplinkManager.swift */,
+				E78E5C222916CFD100B16459 /* AlertManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E78E5C132913D6E100B16459 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E78E5C142913D6EF00B16459 /* Storyboarded.swift */,
+				E78E5C162913D73900B16459 /* Coordinator.swift */,
+				E78E5C182913D76800B16459 /* MainCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E78E5C1A2913E47800B16459 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				E75DFA4D29184B7D00F36606 /* Deeplink */,
+				E75DFA4C29184B6B00F36606 /* API */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E767D5D529112C94004FB752 /* Build configuration list for PBXNativeTarget "ApiTest" */;
 			buildPhases = (
+				6D76973433EDA269D3C61EF4 /* [CP] Check Pods Manifest.lock */,
 				E767D5A729112C91004FB752 /* Sources */,
 				E767D5A829112C91004FB752 /* Frameworks */,
 				E767D5A929112C91004FB752 /* Resources */,
+				B088741E304DF1156FF6B204 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E767D5D829112C94004FB752 /* Build configuration list for PBXNativeTarget "ApiTestTests" */;
 			buildPhases = (
+				878A051831E84C1D8248C943 /* [CP] Check Pods Manifest.lock */,
 				E767D5BD29112C94004FB752 /* Sources */,
 				E767D5BE29112C94004FB752 /* Frameworks */,
 				E767D5BF29112C94004FB752 /* Resources */,
@@ -169,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E767D5DB29112C94004FB752 /* Build configuration list for PBXNativeTarget "ApiTestUITests" */;
 			buildPhases = (
+				5CE0C2631BB6FB5FE086B011 /* [CP] Check Pods Manifest.lock */,
 				E767D5C729112C94004FB752 /* Sources */,
 				E767D5C829112C94004FB752 /* Frameworks */,
 				E767D5C929112C94004FB752 /* Resources */,
+				5071B5003473D1A8B2649B24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +447,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5071B5003473D1A8B2649B24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApiTest-ApiTestUITests/Pods-ApiTest-ApiTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApiTest-ApiTestUITests/Pods-ApiTest-ApiTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApiTest-ApiTestUITests/Pods-ApiTest-ApiTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE0C2631BB6FB5FE086B011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiTest-ApiTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D76973433EDA269D3C61EF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878A051831E84C1D8248C943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B088741E304DF1156FF6B204 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApiTest/Pods-ApiTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApiTest/Pods-ApiTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApiTest/Pods-ApiTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E767D5A729112C91004FB752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E767D5B329112C91004FB752 /* ViewController.swift in Sources */,
+				E77671F12911AB2400CF6CC1 /* Token.swift in Sources */,
+				E7F1B029291160CB00D53A78 /* GrantType.swift in Sources */,
+				E78E5C0B291335C700B16459 /* RedditService+RequestInterceptor.swift in Sources */,
+				E75DFA4F29184B9600F36606 /* DeepLinkParameters.swift in Sources */,
+				E767D5B329112C91004FB752 /* SubredditViewController.swift in Sources */,
+				E78E5C122913D61900B16459 /* LoginViewController.swift in Sources */,
+				E78E5C192913D76800B16459 /* MainCoordinator.swift in Sources */,
+				E78E5C212916C8FC00B16459 /* DeeplinkManager.swift in Sources */,
 				E767D5AF29112C91004FB752 /* AppDelegate.swift in Sources */,
 				E767D5B129112C91004FB752 /* SceneDelegate.swift in Sources */,
+				E78E5C152913D6EF00B16459 /* Storyboarded.swift in Sources */,
+				E7F1B02129112DE500D53A78 /* RedditService.swift in Sources */,
+				E78E5C042912EF7F00B16459 /* ChildData.swift in Sources */,
+				E78E5C002912EF3F00B16459 /* SubredditData.swift in Sources */,
+				E7F1B02729115CEE00D53A78 /* DuractionToken.swift in Sources */,
+				E75DFA5129184BAF00F36606 /* DeepLinkConstants.swift in Sources */,
+				E7F1B02529115C9C00D53A78 /* Scope.swift in Sources */,
+				E78E5C022912EF6200B16459 /* Child.swift in Sources */,
+				E7F1B02329115C1700D53A78 /* ResponseType.swift in Sources */,
+				E78E5C0E29133ED700B16459 /* UserDefaultsManager.swift in Sources */,
+				E78E5C232916CFD100B16459 /* AlertManager.swift in Sources */,
+				E78E5C1F29145FFF00B16459 /* RedditNetworkReachability.swift in Sources */,
+				E78E5C092912F9E300B16459 /* APIError.swift in Sources */,
+				E78E5BFE2912EF1B00B16459 /* Subreddit.swift in Sources */,
+				E78E5BFC2912CDCB00B16459 /* ApiEndpoint.swift in Sources */,
+				E78E5C172913D73900B16459 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +752,7 @@
 		};
 		E767D5D629112C94004FB752 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C78A9DD7ECC67F09357E84 /* Pods-ApiTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,9 +762,10 @@
 				INFOPLIST_FILE = ApiTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +781,7 @@
 		};
 		E767D5D729112C94004FB752 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFC5238BC6FD4D2AF74F614 /* Pods-ApiTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,9 +791,10 @@
 				INFOPLIST_FILE = ApiTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,13 +810,14 @@
 		};
 		E767D5D929112C94004FB752 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20EF17C45F7F87E6BC6FB954 /* Pods-ApiTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = my.company.ApiTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,13 +830,14 @@
 		};
 		E767D5DA29112C94004FB752 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCBFE57A0FBBEC148451951 /* Pods-ApiTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = my.company.ApiTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,11 +850,13 @@
 		};
 		E767D5DC29112C94004FB752 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B6F9D1E37B96C0C37888EF /* Pods-ApiTest-ApiTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = my.company.ApiTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,11 +869,13 @@
 		};
 		E767D5DD29112C94004FB752 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB208AEB76D7A95DD1BC0D35 /* Pods-ApiTest-ApiTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = my.company.ApiTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
